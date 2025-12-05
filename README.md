@@ -20,7 +20,7 @@ Now you can start using the "parallel-map" function. It's syntax is the same as 
 
 (parallel-map tp factorial '(2 3 4 5 6 7 8 9 10)) 
 
-As parallel-map returns, you can use the thred pool again. To destroy the thread pool, type: 
+As parallel-map returns, you can use the thread pool again. To destroy the thread pool, type: 
 
 (kill-thread-pool tp)
 
